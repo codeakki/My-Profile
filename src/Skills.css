@@ -1,0 +1,31 @@
+.contact > h1{
+    font-family: "Bad Script";
+    margin:2vh
+}
+.skills > a > img{
+    width:15vh;
+    margin:6vh;
+    transition: width 1s;
+}
+.skills > a > img:hover{
+    width:17vh
+}
+.ss > a > img{
+    width:16vh;
+    margin:6vh;
+}
+.ss > a > img:hover{
+    width:18vh
+}
+.skills{
+    transition: all 1s;
+}
+
+.contact{
+    background-color:#e4e6dd;
+    width: 100%;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+}

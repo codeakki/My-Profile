@@ -1,0 +1,26 @@
+.header,.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.options,.header{
+  color: white;
+  font-family: "Arial";
+}
+.options > p{
+  margin-left: 4vw;
+  cursor: pointer;
+  font-size:3vh;
+}
+.header > p{
+  cursor: pointer;
+  margin-right: 16vw;
+  font-size:3vh;
+}
+.header{
+  height:5pc;
+  align-items: center
+}
+.options{
+  margin-left: 4vw
+}
